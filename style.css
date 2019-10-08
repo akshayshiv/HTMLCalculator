@@ -1,0 +1,13 @@
+.background{
+    padding: 50px 100px 100px 50px;
+    border-radius: 0px;
+    background-color: BLACK
+}
+.buttons {
+    background-color: #e0e0e0
+    padding = 20px;
+    color: black;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 50%;
+}

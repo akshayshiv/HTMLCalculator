@@ -1,13 +1,18 @@
-.background{
-    padding: 50px 100px 100px 50px;
-    border-radius: 0px;
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
     background-color: BLACK
 }
-.buttons {
-    background-color: #e0e0e0
-    padding = 20px;
-    color: black;
+
+.flex-container > div{
+    background-color: #fcba03;
+    width: 100px;
+    margin: 10px;
     text-align: center;
-    font-size: 16px;
-    border-radius: 50%;
+    font-size: 40px;
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
 }

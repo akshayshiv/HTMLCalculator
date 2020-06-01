@@ -2,8 +2,13 @@
 <head>
     <link rel="stylesheet" href="style.css">
 </head>
-<body style= "background-color: black">
-    
+<body style= "background-color: #191A1A">
+    <div class= "borderbox">
+        <h1 class= "website-style"><TT>Akshay Shivkumar</TT></h1>
+        <br>
+        <h2 class= "website-style"><TT>University of Maryland Class of 2023</TT></h2>
+    </div>
+    <button class= "button-back" onclick= "window.location.href= 'https://akshayshiv.github.io/projects.html'"><TT>Back</TT></button>
     <input type="text" id="result" class= "position"/>
     <div class= "top-row">
         <button class= "button-top" onclick="clearInput()">AC</button>
@@ -12,28 +17,28 @@
         <button class= "symbols" onclick="currentValue('/')">÷</button>
     </div>
     <div class= "second-row">
-        <button class= "button-rest" value= "7"onclick="currentValue('7')">7</button>
-        <button class= "button-rest" value= "8"onclick="currentValue('8')">8</button>
-        <button class= "button-rest" value= "9"onclick="currentValue('9')">9</button>
-        <button class= "symbols" value= "*"onclick="currentValue('*')">×</button>
+        <button class= "button-rest" onclick="currentValue('7')">7</button>
+        <button class= "button-rest" onclick="currentValue('8')">8</button>
+        <button class= "button-rest" onclick="currentValue('9')">9</button>
+        <button class= "symbols" onclick="currentValue('*')">×</button>
     </div>
     <div class= "third-row">
-        <button class= "button-rest" value= "4"onclick="currentValue('4')">4</button>
-        <button class= "button-rest" value= "5"onclick="currentValue('5')">5</button>
-        <button class= "button-rest" value= "6"onclick="currentValue('6')">6</button>
-        <button class= "symbols" value= "-"onclick="currentValue('-')">-</button>
+        <button class= "button-rest" onclick="currentValue('4')">4</button>
+        <button class= "button-rest" onclick="currentValue('5')">5</button>
+        <button class= "button-rest" onclick="currentValue('6')">6</button>
+        <button class= "symbols" onclick="currentValue('-')">-</button>
     </div>
     <div class= "fourth-row">
-        <button class= "button-rest" value= "1"onclick="currentValue('1')">1</button>
-        <button class= "button-rest" value= "2"onclick="currentValue('2')">2</button>
-        <button class= "button-rest" value= "3"onclick="currentValue('3')">3</button>
-        <button class= "symbols" value= "+"onclick="currentValue('+')">+</button>
+        <button class= "button-rest"onclick="currentValue('1')">1</button>
+        <button class= "button-rest" onclick="currentValue('2')">2</button>
+        <button class= "button-rest" onclick="currentValue('3')">3</button>
+        <button class= "symbols" onclick="currentValue('+')">+</button>
     </div>
     <div class= "last-row">
-        <button class= "button-rest" value= "0"onclick="currentValue('0')">0</button>
-        <button class= "button-rest" value= "." onclick="currentValue('.')">.</button>
+        <button class= "button-rest" onclick="currentValue('0')">0</button>
+        <button class= "button-rest"  onclick="currentValue('.')">.</button>
         <button class= "button-rest" onclick= "deleteLast()">←</button>
-        <button class= "symbols" value= "=" onclick="solve()">=</button>
+        <button class= "symbols"  onclick="solve()">=</button>
     </div>
 </body>
 <script> 

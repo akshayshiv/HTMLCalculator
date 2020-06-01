@@ -1,27 +1,142 @@
-.background{
-    display: flex;
-    flex-wrap: wrap;
-    background-color: BLACK
+body{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
 }
-
-.background > div{
-    background-color: #fcba03;
-    width: 100px;
-    margin: 10px;
+h1.website-style {
+    font-size: 30px;
+    color: #CBC69D;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+h2.website-style{
+    font-size: 15px;
+    color: #686655;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    font-style: italic;
+    display: inline-block;
+}
+.borderbox{
+    padding: 10px ;
+    border: 1px solid #7c0000;
+    background-color:#7c0000;
+    float: left;
+}
+.button-top {
+    background: rgb(82, 82, 82);
+    border: none;
+    color: white;
     text-align: center;
-    line-height: 100px;
-    font-size: 40px;
+    font-size: 70px;
+    border-radius: 50%;
+    margin: 4px 2px;
+    padding-right: 20px;
+    padding-left: 20px;
+    cursor: pointer;
+    width: 2em;
+}
+.button-top:hover{
+    background: rgb(173, 173, 173);
+}
+.button-top:active{
+    background: rgb(82, 82, 82);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+.button-rest {
+    background: rgb(53, 53, 53);
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 70px;
+    border-radius: 50%;
+    margin: 4px 2px;
+    padding-right: 20px;
+    padding-left: 20px;
+    cursor: pointer;
+    width: 2em;
 }
 
-.buttons {
-    background-color: #e0e0e0
-    padding = 20px;
-    color: black;
+.button-rest:hover{
+    background: rgb(82, 82, 82);
+
+}
+.button-rest:active {
+    background: rgb(53, 53, 53);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+.symbols{
+    background: orange;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 70px;
+    border-radius: 50%;
+    margin: 4px 2px;
+    padding-right: 20px;
+    padding-left: 20px;
+    cursor: pointer;
+    width: 2em;
+}
+.symbols:hover{
+    background: #ecb040
+}
+.symbols:active{
+    background: #ecc782;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+.top-row{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+}
+.second-row{
+    position: absolute;
+    top: 52%;
+    left: 30%;
+}
+.third-row{
+    position: absolute;
+    top: 64%;
+    left: 30%;
+}
+.fourth-row{
+    position: absolute;
+    top: 76%;
+    left: 30%;
+}
+.last-row{
+    position: absolute;
+    top: 88%;
+    left: 30%;
+}
+.button-back {
+    background: #191A1A;
+    border: none;
+    color: #CBC69D;
+    padding: 15px 32px;
     text-align: center;
     font-size: 16px;
-    border-radius: 0%;
+    margin: 4px 2px;
+    cursor: pointer;
+    position:absolute; 
+    top:0; 
+    right:0;
+    font-size: 30px;
+    display: inline-block; 
 }
-.top{
-    display: flex;
-    flex-direction: row;
+input{
+   background-color: #191A1A;
+   font-size: 60px;
+   color: white;
+   margin-left: 500px;
+   margin-top: 230px;
 }
+
+

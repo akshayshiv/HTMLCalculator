@@ -2,9 +2,14 @@
 <head>
     <link rel="stylesheet" href="style.css">
 </head>
-<body style= "background-color: black">
+<body style= "background-color: #191A1A">
+    <div class= "borderbox">
+        <h1 class= "website-style"><TT>Akshay Shivkumar</TT></h1>
+        <br>
+        <h2 class= "website-style"><TT>University of Maryland Class of 2023</TT></h2>
+    </div>
     <button class= "button-back" onclick= "window.location.href= 'https://akshayshiv.github.io/projects.html'"><TT>Back</TT></button>
-    <input type="text" id="result" class= "position"/>
+    <input type="text" id="result" class= "position" disabled/>
     <div class= "top-row">
         <button class= "button-top" onclick="clearInput()">AC</button>
         <button class= "button-top" onclick="plusMinus()">+/-</button>
@@ -51,7 +56,7 @@
         document.getElementById("result").value = result
     } 
     function clearInput(){ 
-        var string = ""
+        var string = "0"
         document.getElementById("result").value = string
     }
     function plusMinus(){
@@ -61,7 +66,6 @@
     }
     function percentage(){
         document.getElementById("result").value =  document.getElementById("result").value /100
-
     }
     
  </script> 
